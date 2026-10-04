@@ -28,8 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
+<<<<<<< HEAD
             this.lblsv = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+=======
+            this.label1 = new System.Windows.Forms.Label();
+            this.lblten = new System.Windows.Forms.Label();
+>>>>>>> feature-student-grid
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -86,14 +91,14 @@
             this.lblsv.TabIndex = 0;
             this.lblsv.Text = "Mã sinh viên";
             // 
-            // label2
+            // lblten
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(16, 74);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(46, 16);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Họ tên";
+            this.lblten.AutoSize = true;
+            this.lblten.Location = new System.Drawing.Point(16, 74);
+            this.lblten.Name = "lblten";
+            this.lblten.Size = new System.Drawing.Size(46, 16);
+            this.lblten.TabIndex = 1;
+            this.lblten.Text = "Họ tên";
             // 
             // label3
             // 
@@ -301,8 +306,13 @@
             this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.label3);
+<<<<<<< HEAD
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.lblsv);
+=======
+            this.groupBox1.Controls.Add(this.lblten);
+            this.groupBox1.Controls.Add(this.label1);
+>>>>>>> feature-student-grid
             this.groupBox1.Location = new System.Drawing.Point(12, 99);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(570, 222);
@@ -501,8 +511,13 @@
 
         #endregion
 
+<<<<<<< HEAD
         private System.Windows.Forms.Label lblsv;
         private System.Windows.Forms.Label label2;
+=======
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblten;
+>>>>>>> feature-student-grid
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
